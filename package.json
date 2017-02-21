@@ -1,0 +1,23 @@
+{
+  "name": "smhack-dock",
+  "version": "1.0.0",
+  "description": "smhack-dock",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bhawkes/smhack-dock.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bhawkes/smhack-dock/issues"
+  },
+  "homepage": "https://github.com/bhawkes/smhack-dock#readme",
+  "dependencies": {
+    "csv-streamify": "^3.0.4",
+    "lateration": "^0.1.3"
+  }
+}
