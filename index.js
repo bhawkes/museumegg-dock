@@ -1,8 +1,10 @@
 const ProcessCsv = require('./lib/ProcessCsv.js');
-// Go go go
-ProcessCsv.load('./1487701680548.csv')
+
+
+ProcessCsv.load('./1487702986724.csv')
     .then(function(data) {
-        console.log(data);
+        console.log(ProcessCsv.top(3));
+
     }).catch(function (err) {
         console.error(err);
     });
