@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/bhawkes/smhack-dock#readme",
   "dependencies": {
+    "chokidar": "^1.6.1",
     "csv-streamify": "^3.0.4",
     "lateration": "^0.1.3"
   }
